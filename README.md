@@ -63,19 +63,7 @@ Your application should now be running at http://localhost:3000!
 📂 Project Structure
 code
 Text
-securedev-hub/
-├── backend/
-│   ├── models/          # Mongoose Schemas (User, Checklist, Article)
-│   ├── routes/          # API Endpoints (Auth, Blog, Compliance)
-│   ├── middleware/      # JWT Authentication Guards
-│   └── server.js        # Entry point
-├── frontend/
-│   ├── src/
-│   │   ├── components/  # Reusable UI (Navbar, Footer, BlogCards)
-│   │   ├── pages/       # Home, Dashboard, Login
-│   │   └── App.js       # Routing Logic
-│   └── tailwind.config.js
-└── README.md
+
 🛡️ Security Best Practices Applied
 This project was built following industry-standard security principles:
 Password Hashing: Passwords are never stored in plain text (Bcrypt).
